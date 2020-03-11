@@ -1,0 +1,47 @@
+- title: HTML5
+  image: !file ./images/html5.png
+  skill: 95
+
+- title: CSS3
+  image: !file ./images/css3.png
+  skill: 95
+
+- title: Sass
+  image: !file ./images/sass.png
+  skill: 95
+
+- title: Javascript
+  image: !file ./images/javascript.png
+  skill: 80
+
+- title: React
+  image: !file ./images/react.png
+  skill: 80
+
+- title: PHP
+  image: !file ./images/php.png
+  skill: 70
+
+- title: node.js
+  image: !file ./images/nodejs.png
+  skill: 60
+
+- title: C#
+  image: !file ./images/csharp.png
+  skill: 45
+
+- title: Java
+  image: !file ./images/java.png
+  skill: 45
+
+- title: SQL
+  image: !file ./images/mysql.png
+  skill: 75
+
+- title: GraphQL
+  image: !file ./images/graphql.png
+  skill: 50
+
+- title: Wordpress
+  image: !file ./images/wordpress.png
+  skill: 80

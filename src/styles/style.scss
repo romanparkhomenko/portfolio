@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Source+Code+Pro&display=swap');
+
+html {
+  background-color: #1f2b3b !important;
+  color: #fff !important;
+  /* font-size: 2em; */
+  font-family: "Poppins", sans-serif !important;
+}
+
+body {
+  background-color: #1f2b3b !important;
+  color: #fff !important;
+  font-size: 16px !important;
+  font-family: "Poppins", sans-serif !important;
+}
+
+div.intro-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.intro-header {
+  margin: 1.5rem auto 2.5rem;
+  font-size: 3rem;
+}
+
+.code {
+  font-family: "Source Code Pro", monospace;
+  font-size: 1.75rem;
+}
+
+.code:first-of-type {margin-top: 3rem;}
+
+.intro p {
+  line-height: 1.4;
+  /*width: 100%;*/
+  max-width: 725px;
+  font-size: 1.75rem;
+  color: silver;
+  margin: 1rem 3rem;
+}
+
+.intro a.nav-link {
+  padding: 0;
+}
+
+button.learn-more {
+  display: none;
+  -webkit-appearance: none;
+  margin: 0.5rem 0;
+  background: #6bb220;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.75rem;
+  padding: 0.5rem 2rem;
+}
+
+button.learn-more a.nav-link {
+  font-size: 1rem;
+  /*padding: 0 1rem;*/
+  color: white;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+}
+
+.icon {
+  height: 30px;
+  transition: 0.1s ease-in;
+  color: #fff;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+  color: #ff8a00;
+}
+
+@import 'about';
+@import 'portfolio';

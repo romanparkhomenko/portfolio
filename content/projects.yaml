@@ -1,23 +1,12 @@
-- title: Qr-Code-Application
-  subtitle: A new Flutter project
-  link: https://github.com/Mr404Found/Qr-Code-Application
-
-- title: Basic Music
-  subtitle: Basic Music Player That lets you to play music
-  link: https://github.com/Mr404Found/Basic-Music-Player
-
-- title: Age Calculator
-  subtitle: Get Your Age
-  link: https://github.com/Mr404Found/AgeCalculator
-
-- title: Qr-Code-Application
-  subtitle: A new Flutter project
-  link: https://github.com/Mr404Found/Qr-Code-Application
-
-- title: Qr-Code-Application
-  subtitle: A new Flutter project
-  link: https://github.com/Mr404Found/Qr-Code-Application
-
-- title: Qr-Code-Application
-  subtitle: A new Flutter project
-  link: https://github.com/Mr404Found/Qr-Code-Application
+- title: Moozik
+  subtitle: A sequencer built with React Hooks and Tone.js.
+  description: A sequencer built with React and Tone.js. I built this app to explore the functional programming paradigm by utiilizing Hooks and leaning into the declarative features of React.
+  codeLink: https://github.com/romanparkhomenko/compozer
+  link: https://compozer.netlify.com/
+  image: !file ./images/compozer.png
+- title: Redackt
+  subtitle: An open source Slack Skin for Reddit.
+  description: A Slack Skin for Reddit. I orignally built Redackt to learn React, but ended up learning so much more with this project. I even open sourced it and got some contributors on GitHub!
+  codeLink: https://github.com/romanparkhomenko/redackt
+  link: https://redackt.netlify.com/
+  image: !file ./images/redackt.png

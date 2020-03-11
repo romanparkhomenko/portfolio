@@ -1,20 +1,21 @@
 import React from "react"
-import "../style.css"
-import Appbar from "../components/appbar"
-import Info from "../components/info"
+import "../styles/style.scss"
+import Appbar from "../components/Appbar"
+import Intro from "../components/Intro"
 import { Helmet } from "react-helmet"
 
-function index() {
+function Index() {
   return (
     <div>
-      <Appbar />
-      <Info />
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Home | Sumanth</title>
+        <title>Roman Parkhomenko | Software Engineer</title>
       </Helmet>
+
+      <Appbar />
+      <Intro />
     </div>
   )
 }
 
-export default index
+export default Index;
