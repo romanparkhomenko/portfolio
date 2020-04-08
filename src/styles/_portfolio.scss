@@ -94,3 +94,42 @@ div.portfolio-page {
   }
 
 }
+
+@media screen and (max-width: 800px) {
+  div.portfolio-page {
+    .header {
+      margin: 2.5rem auto 2.5rem;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    div.content {
+      p.description {
+        margin: 0.5rem 0 0.5rem 1rem;
+      }
+
+      div.projects {
+        display: flex;
+        flex-flow: column;
+      }
+
+      div.project-card {
+        width: 95%;
+        margin: 0.75rem auto;
+      }
+
+
+      div.skills {
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      div.flippy-container {
+        max-width: 170px;
+        .flippy-cardContainer.isActive.istouchdevice .flippy-back {
+          background: #1f2b3b;
+        }
+      }
+    }
+  }
+}

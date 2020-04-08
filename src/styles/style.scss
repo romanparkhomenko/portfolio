@@ -14,6 +14,12 @@ body {
   font-family: "Poppins", sans-serif !important;
 }
 
+nav {
+  .nav-item {
+    margin: 0 1rem;
+  }
+}
+
 div.intro-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -81,5 +87,22 @@ button.learn-more a.nav-link {
   color: #ff8a00;
 }
 
+@media screen and (max-width: 800px) {
+  .intro-header {
+    margin: 1.5rem auto 2.5rem;
+    font-size: 2rem;
+  }
+
+  .intro p {
+    line-height: 1.4;
+    /*width: 100%;*/
+    max-width: none;
+    font-size: 1.25rem;
+    color: silver;
+    margin: 1rem 0 1rem 1rem;
+  }
+}
+
 @import 'about';
 @import 'portfolio';
+@import 'resume';

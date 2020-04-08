@@ -32,3 +32,28 @@ div.about-page {
   }
 
 }
+
+@media screen and (max-width: 800px) {
+  div.about-page {
+    .header {
+      margin: 2.5rem auto 2.5rem;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    div.content {
+      .about-content {
+        flex-flow: column;
+      }
+
+      p {
+        font-size: 1rem;
+        margin: 1rem 0 1rem 1rem;
+      }
+
+      div.headshot {
+        margin-top: 2rem;
+      }
+    }
+  }
+}

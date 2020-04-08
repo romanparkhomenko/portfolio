@@ -11,7 +11,7 @@ function Resume({ data }) {
   const resume = data.allFile.edges[0].node.publicURL;
 
   return (
-    <div className="container">
+    <div className="container resume-page">
       <Appbar />
 
       <Helmet>
@@ -19,18 +19,20 @@ function Resume({ data }) {
         <title>Resume | Roman Parkhomenko</title>
       </Helmet>
 
-      <h1 className="intro-header" style={{ color: "#0099cc" }}>
+      <h1 className="header" style={{ color: "#0099cc" }}>
         <span>{"//"}</span>
         <span style = {{color : "white"}}>Resume</span>
       </h1>
 
-      <CodeBlock title="renderResume()">
-        <div className="resume">
-          <Document file={resume}>
-            <Page pageNumber={1} />
-          </Document>
-        </div>
-      </CodeBlock>
+      <div className="content">
+        <CodeBlock title="renderResume()">
+          <div className="resume">
+            <Document file={resume}>
+              <Page pageNumber={1} />
+            </Document>
+          </div>
+        </CodeBlock>
+      </div>
     </div>
   )
 }

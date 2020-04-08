@@ -1,0 +1,41 @@
+
+
+div.resume-page {
+  .header {
+    margin: 1.5rem auto 2.5rem;
+    font-size: 2.5rem;
+  }
+
+  div.content {
+    div.resume {
+      margin: 1rem 0 1rem 1rem;
+
+      .react-pdf__Page {
+        canvas {
+          max-width: 100%;
+          height: auto !important;
+        }
+      }
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  div.resume-page {
+    .header {
+      margin: 2.5rem auto 2.5rem;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    div.content {
+      .code {font-size: 1.25rem;}
+      div.resume {
+        margin: 1rem 0 1rem 1rem;
+      }
+    }
+
+  }
+}
