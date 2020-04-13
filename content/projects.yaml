@@ -1,6 +1,6 @@
-- title: Moozik
-  subtitle: A sequencer built with React Hooks and Tone.js.
-  description: A sequencer built with React and Tone.js. I built this app to explore the functional programming paradigm by utiilizing Hooks and leaning into the declarative features of React.
+- title: Compozer
+  subtitle: A web synthesizer built with React Hooks, Tone.js, and Pts.js with a focus on function composition.
+  description: A synthesizer I built with React and Tone.js. I built this app to explore the functional programming paradigm by utiilizing Hooks and leaning into the declarative features of React.
   codeLink: https://github.com/romanparkhomenko/compozer
   link: https://compozer.netlify.com/
   image: !file ./images/compozer.png
