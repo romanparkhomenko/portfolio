@@ -1,0 +1,86 @@
+
+div.growth-page {
+  .header {
+    margin: 1.5rem auto 2.5rem;
+    font-size: 2.5rem;
+  }
+
+  div.content {
+    h3.growth-header {
+      font-size: 1.1rem;
+      margin: 1rem 0;
+    }
+
+    .experiments {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .experiment {
+      //flex: 1 0 auto;
+      background: lighten(#1f2b3b, 5%);
+      max-width: 100%;
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+      padding: 1rem;
+      box-shadow: 4px 8px 8px 1px rgba(0, 0, 0, 0.4);
+      margin: 1rem auto;
+
+      .experiment-title {
+        font-size: 1.1rem;
+        margin: 0.5rem 0;
+      }
+
+      .experiment-description {
+        font-size: 0.9rem;
+        margin: 0;
+      }
+
+      .experiment-metrics {
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+      }
+
+      .experiment-metric {
+        //flex: 0 1 225px;
+        flex-basis: 225px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        padding: 1rem;
+
+        p.chart-description {
+          font-size: 0.8rem;
+          margin: 1rem 0 0;
+          text-align: center;
+        }
+      }
+
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  div.growth-page {
+    .header {
+      margin: 2.5rem auto 2.5rem;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    div.content {
+      h3.growth-header {
+        font-size: 1rem;
+        margin: 1rem 0;
+      }
+    }
+  }
+}
