@@ -6,9 +6,10 @@ import StarRatings from 'react-star-ratings';
 
 
 function Card(props) {
-  const { cardTitle, cardSubtitle } = props
+  const { cardTitle, cardSubtitle, banner } = props;
   return (
     <div className="project-card">
+      {banner && <a className="tone-banner" href="https://tonejs.github.io/demos" rel="noopener noreferrer">Featured on Tone.js</a>}
       <Img
         className="skill-logo"
         fluid={props.image}
@@ -19,13 +20,13 @@ function Card(props) {
         <p className="card-text">{cardSubtitle}</p>
         <div className="links">
 
-          <a className="icon" href={props.link} target="_blank">
+          <a className="icon" href={props.link} target="_blank" rel="noopener noreferrer">
             <Binoculars />
             <span>See It Here</span>
           </a>
 
           {props.codeLink ?
-            <a className="icon" href={props.codeLink} target="_blank">
+            <a className="icon" href={props.codeLink} target="_blank" rel="noopener noreferrer">
               <Github />
               <span>See The Code</span>
             </a>

@@ -23,11 +23,48 @@ div.portfolio-page {
       width: 50%;
       margin: 10px;
       box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+      position: relative;
       transition: all 250ms;
       &:hover {
         box-shadow: 4px 8px 8px 1px rgba(0, 0, 0, 0.4);
         transition: all 250ms;
       }
+
+      a.tone-banner {
+        position: absolute;
+        z-index: 1000;
+        margin: 0;
+        //padding: 0.5rem;
+        background: #0099cc;
+        box-shadow: -1px 1px 1px 1px rgba(127, 51, 237, 0.5);
+        left: -1rem;
+        top: 0.75rem;
+        font-size: 0.9rem;
+        text-align: center;
+        padding: 0.25rem;
+        width: 50%;
+        border-radius: 2px;
+        color: white;
+
+        &:before {
+          position: absolute;
+          left: 0;
+          bottom: -1rem;
+          border-top: 1rem solid #7f33ed;
+          border-left: 1rem solid transparent;
+          width: 0;
+          height: 0;
+          content: "";
+        }
+
+        &:hover {
+          //color: #3DC9B0;
+          color: #28374c;
+          transition: all 250ms;
+          text-decoration: none;
+        }
+      }
+
       div.card-body {
         padding: 1rem;
         h3.card-title {
@@ -66,16 +103,16 @@ div.portfolio-page {
     div.flippy-container {
       width: 100%;
       max-width: 250px;
-      background: lighten(#1f2b3b, 5%);
-      //background: #f0f0f0;
-      //max-height: 250px;
       margin: 10px;
-      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
       transition: all 250ms;
       text-align: center;
       display: flex;
       align-items: center;
       h3.card-title {margin-top: 1.5rem;}
+
+      div.flippy-card {
+        background: lighten(#1f2b3b, 5%);
+      }
 
       div.skill-level {
         display: flex;
@@ -84,10 +121,10 @@ div.portfolio-page {
         margin: 1rem 0;
         p {color: silver;}
       }
-      //padding: 1rem;
+
       &:hover {
         box-shadow: 4px 8px 8px 1px rgba(0, 0, 0, 0.4);
-        transition: all 250ms;
+        transition: all 750ms;
       }
     }
 

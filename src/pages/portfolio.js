@@ -37,6 +37,7 @@ function Portfolio({ data }) {
                   link={node.link}
                   codeLink={node.codeLink}
                   key={node.id}
+                  banner={node.banner ? node.banner : null}
                 />
               )
             })}
@@ -102,6 +103,7 @@ export const query = graphql`
           link
           codeLink
           id
+          banner
         }
       }
     }

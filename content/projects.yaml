@@ -4,6 +4,7 @@
   codeLink: https://github.com/romanparkhomenko/compozer
   link: https://compozer.netlify.com/
   image: !file ./images/compozer.png
+  banner: tone.js
 - title: Redackt
   subtitle: An open source Slack Skin for Reddit.
   description: A Slack Skin for Reddit. I orignally built Redackt to learn React, but ended up learning so much more with this project. I even open sourced it and got some contributors on GitHub!

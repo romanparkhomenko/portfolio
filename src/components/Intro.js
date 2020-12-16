@@ -28,16 +28,16 @@ export default function Intro() {
       <button className="learn-more"><NavLink to="/projects">learnMoreAboutMe()</NavLink></button>
 
       <div className="h1 mt-5">
-        <a className="mr-5 icon" target="_blank" href="https://twitter.com/Russki_Roman">
+        <a className="mr-5 icon" target="_blank" href="https://twitter.com/Russki_Roman" rel="noopener noreferrer">
           <Twitter />
         </a>
-        <a className="mr-5 icon" target="_blank" href="https://www.linkedin.com/in/roman-parkhomenko">
+        <a className="mr-5 icon" target="_blank" href="https://www.linkedin.com/in/roman-parkhomenko" rel="noopener noreferrer">
           <LinkedIn />
         </a>
-        <a className="mr-5 icon" target="_blank" href="https://github.com/romanparkhomenko">
+        <a className="mr-5 icon" target="_blank" href="https://github.com/romanparkhomenko" rel="noopener noreferrer">
           <Github />
         </a>
-        <a className="mr-5 icon" target="_blank" href="mailto://rsparkhomenko@gmail.com">
+        <a className="mr-5 icon" target="_blank" href="mailto://rsparkhomenko@gmail.com" rel="noopener noreferrer">
           <Mail />
         </a>
       </div>
