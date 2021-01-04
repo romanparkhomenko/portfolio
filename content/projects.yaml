@@ -1,3 +1,9 @@
+- title: Kaloree
+  subtitle: A meal tracker built with Next, Next-Auth, Prisma, and MySQL.
+  description: I built Kaloree to easily track meals while learning some functionality such as SSO and Next's SSR.
+  codeLink: https://github.com/romanparkhomenko/kaloree
+  link: https://kaloree.vercel.app/login
+  image: !file ./images/kaloree.png
 - title: Compozer
   subtitle: A web synthesizer built with React Hooks, Tone.js, and Pts.js with a focus on function composition.
   description: A synthesizer I built with React and Tone.js. I built this app to explore the functional programming paradigm by utiilizing Hooks and leaning into the declarative features of React.
