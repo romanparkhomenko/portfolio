@@ -13,7 +13,6 @@ function Resume({ data }) {
   return (
     <div className="container resume-page">
       <Appbar />
-
       <Helmet>
         <meta charSet="utf-8" />
         <title>Resume | Roman Parkhomenko</title>
